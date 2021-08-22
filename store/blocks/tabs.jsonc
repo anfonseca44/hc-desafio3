@@ -1,0 +1,113 @@
+{
+    "tab-list.item#categoria1": {
+        "props": {
+            "tabId": "categoria1",
+            "label": "PROMOÇÃO",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#categoria2": {
+        "props": {
+            "tabId": "categoria2",
+            "label": "SIGNOS"
+        }
+    },
+    "tab-list.item#categoria3": {
+        "props": {
+            "tabId": "categoria3",
+            "label": "DIVERTIDOS"
+        }
+    },
+    "tab-list.item#categoria4": {
+        "props": {
+            "tabId": "categoria4",
+            "label": "GUERREIROS"
+        }
+    },
+    "tab-list.item#categoria5": {
+        "props": {
+            "tabId": "categoria5",
+            "label": "7 MARAVILHAS"
+        }
+    },
+    "tab-content.item#categoria1": {
+        "children": [
+            "shelf#categoria1"
+        ],
+        "props": {
+            "tabId": "categoria1"
+        }
+    },
+    "shelf#categoria1": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "props": {
+            "category": "20/24"
+        }
+    },
+    "tab-content.item#categoria2": {
+        "children": [
+            "shelf#categoria2"
+        ],
+        "props": {
+            "tabId": "categoria2"
+        }
+    },
+    "shelf#categoria2": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "props": {
+            "category": "20/21"
+        }
+    },
+    "tab-content.item#categoria3": {
+        "children": [
+            "shelf#categoria3"
+        ],
+        "props": {
+            "tabId": "categoria3"
+        }
+    },
+    "shelf#categoria3": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "props": {
+            "category": "20/25"
+        }
+    },
+    "tab-content.item#categoria4": {
+        "children": [
+            "shelf#categoria4"
+        ],
+        "props": {
+            "tabId": "categoria4"
+        }
+    },
+    "shelf#categoria4": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "props": {
+            "category": "20/27"
+        }
+    },
+    "tab-content.item#categoria5": {
+        "children": [
+            "shelf#categoria5"
+        ],
+        "props": {
+            "tabId": "categoria5"
+        }
+    },
+    "shelf#categoria5": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "props": {
+            "category": "28"
+        }
+    }
+}

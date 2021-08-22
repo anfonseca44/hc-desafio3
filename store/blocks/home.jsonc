@@ -1,15 +1,60 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      "rich-text"
+      "tab-layout#categorias"
     ]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+  "tab-layout#categorias": {
+    "children": [
+      "tab-list#categorias",
+      "slider-layout#destaques",
+      "tab-content#categorias"
+    ]
+  },
+  "tab-list#categorias": {
+    "children": [
+      "tab-list.item#categoria1",
+      "tab-list.item#categoria2",
+      "tab-list.item#categoria3",
+      "tab-list.item#categoria4",
+      "tab-list.item#categoria5"
+    ]
+  },
+  "slider-layout#destaques": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "banners"
+    },
+    "children": [
+      "image#destaque1",
+      "image#destaque2"
+    ]
+  },
+  "image#destaque1": {
+    "props": {
+      "src": "assets/banner/banner1.png",
+      "width": "800px"
     }
+  },
+  "image#destaque2": {
+    "props": {
+      "src": "assets/banner/banner2.png",
+      "width": "800px"
+    }
+  },
+  "tab-content#categorias": {
+    "children": [
+      "tab-content.item#categoria1",
+      "tab-content.item#categoria2",
+      "tab-content.item#categoria3",
+      "tab-content.item#categoria4",
+      "tab-content.item#categoria5"
+    ]
   }
 }
