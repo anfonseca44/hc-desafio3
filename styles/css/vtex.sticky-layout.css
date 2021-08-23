@@ -1,3 +1,17 @@
 .container--sticky-header {
     background-color: #212121;
+    height: 70px;
+}
+
+.container--sticky-footer {
+    background-color: #212121;
+    position: fixed;
+    bottom: 0px;
+    height: 70px;
+    justify-content: space-evenly;
+    align-content: stretch;
+}
+
+.headerSpacer {
+    width: 100px;
 }

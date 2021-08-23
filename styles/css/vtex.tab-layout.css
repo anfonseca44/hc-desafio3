@@ -1,0 +1,6 @@
+.listContainer {
+    background-color: #212121;
+    justify-content: space-evenly;
+    align-content: stretch;
+    position: relative;
+}
